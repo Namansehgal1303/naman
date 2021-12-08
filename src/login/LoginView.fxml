@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="400.0" minWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginViewController">
+   <children>
+      <Label layoutX="63.0" layoutY="14.0" prefHeight="46.0" prefWidth="270.0" text="Stock Journal">
+         <font>
+            <Font name="Comic Sans MS Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="67.0" prefHeight="74.0" prefWidth="129.0" text="User ID" textFill="#c31111">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id" layoutX="119.0" layoutY="88.0" />
+      <Label layoutX="14.0" layoutY="96.0" prefHeight="141.0" prefWidth="129.0" text="Pass" textFill="#ee0707">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pass" layoutX="119.0" layoutY="150.0" />
+      <Button layoutX="52.0" layoutY="222.0" mnemonicParsing="false" onAction="#dosubmit" text="Submit" />
+      <Button layoutX="251.0" layoutY="306.0" mnemonicParsing="false" onAction="#enter" prefHeight="31.0" prefWidth="94.0" text="enter" />
+      <Label layoutX="30.0" layoutY="301.0" onDragDetected="#dosignup" prefHeight="40.0" prefWidth="239.0" text="show portfolio:">
+         <font>
+            <Font name="Comic Sans MS Italic" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
